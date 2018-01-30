@@ -77,30 +77,7 @@ a {
 .strike {
   text-decoration: line-through;
 }
-.graph2015 {
-  font-size: 1.75em;
-  margin-bottom: 1em;
-  line-height: 2em;
-  height: 55px;
-  width: 25% !important;
-  text-align: center;
-}
-.graph2016 {
-  font-size: 1.75em;
-  margin-bottom: 1em;
-  line-height: 2em;
-  height: 55px;
-  width: 75% !important;
-  text-align: center;
-}
-.graphtotal {
-  font-size: 1.75em;
-  margin-bottom: 1em;
-  line-height: 2em;
-  height: 55px;
-  width: 100% !important;
-  text-align: center;
-}
+
 .socialbtn {
   margin: 0 7px;
   max-width: 25px;
@@ -115,7 +92,7 @@ a {
   animation: topToBottom 12.5s linear infinite 0s;
   -ms-animation: topToBottom 12.5s linear infinite 0s;
   -webkit-animation: topToBottom 12.5s linear infinite 0s;
-  color: #00abe9;
+  color: #0f0;
   opacity: 0;
   overflow: hidden;
   position: absolute;
