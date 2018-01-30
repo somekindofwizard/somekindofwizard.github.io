@@ -1,0 +1,107 @@
+.responsive {
+  max-width: 100%;
+}
+a {
+  color: #ed7d31 !important;
+}
+.orange {
+  background: #ed7d31 !important;
+  border-color: #ed7d31 !important;
+  color: #fff !important;
+  a {
+    color: #fff !important;
+  }
+}
+.red {
+  background: #FF0000 !important;
+  border-color: #FF0000 !important;
+  color: #fff !important;
+  a {
+    color: #fff !important;
+  }
+}
+.blue {
+  background: #0070c0 !important;
+  border-color: #0070c0 !important;
+  color: #fff !important;
+  a {
+    color: #fff !important;
+  }
+}
+.header-logo {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.section {
+  padding: 4em 0 4em;
+}
+.black {
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+  a {
+    color: #fff !important;
+  }
+}
+.textblock {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.boxee {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 45%;
+}
+.right {
+  text-align: right;
+}
+.button {
+  font-size: 1.75em;
+  width: 100%;
+  margin-bottom: 1em;
+  line-height: 2em;
+  height: 55px;
+}
+.strike {
+  text-decoration: line-through;
+}
+.graph2015 {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  line-height: 2em;
+  height: 55px;
+  width: 25% !important;
+  text-align: center;
+}
+.graph2016 {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  line-height: 2em;
+  height: 55px;
+  width: 75% !important;
+  text-align: center;
+}
+.graphtotal {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  line-height: 2em;
+  height: 55px;
+  width: 100% !important;
+  text-align: center;
+}
+.socialbtn {
+  margin: 0 7px;
+  max-width: 25px;
+}
