@@ -47,6 +47,7 @@ a {
 }
 .feature-card {
   margin-bottom: 1em;
+  padding: 0.5em;
 }
 .textblock {
   width: 80%;
@@ -65,7 +66,7 @@ a {
   height: auto;
   position: relative;
   overflow: hidden;
-  padding: 0.5em;
+  padding-bottom: 45%;
 }
 .right {
   text-align: right;
