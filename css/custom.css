@@ -44,6 +44,10 @@ a {
     color: #fff !important;
   }
 }
+.feature-card {
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
 .textblock {
   width: 80%;
   height: auto;
