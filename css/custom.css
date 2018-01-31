@@ -9,6 +9,9 @@ a {
   background-size: cover;
   background-color: #000;
   text-shadow: 2px 2px #000;
+  button {
+    box-shadow: 2px 2px #000;
+  }
 }
 .purple {
   background: #6a1b9a !important;
@@ -47,7 +50,6 @@ a {
 }
 .feature-card {
   margin-bottom: 1em;
-  margin-right: 1em;
 }
 .textblock {
   width: 80%;
