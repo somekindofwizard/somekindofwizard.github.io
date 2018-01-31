@@ -6,6 +6,8 @@ a {
 }
 .top-fold {
   background-image: url("images/StockSnap_KI4IDLRWIJ.jpg");
+  background-size: cover;
+  background-color: #000;
 }
 .orange {
   background: #ed7d31 !important;
