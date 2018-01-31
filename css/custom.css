@@ -9,35 +9,29 @@ a {
   background-size: cover;
   background-color: #000;
 }
-.orange {
-  background: #ed7d31 !important;
-  border-color: #ed7d31 !important;
+.purple {
+  background: #6a1b9a !important;
+  border-color: #6a1b9a !important;
   color: #fff !important;
   a {
     color: #fff !important;
   }
 }
-.red {
-  background: #FF0000 !important;
-  border-color: #FF0000 !important;
+.purple-light {
+  background: #9c4dcc !important;
+  border-color: #9c4dcc !important;
   color: #fff !important;
   a {
     color: #fff !important;
   }
 }
-.blue {
-  background: #0070c0 !important;
-  border-color: #0070c0 !important;
+.purple-dark {
+  background: #38006b !important;
+  border-color: #38006b !important;
   color: #fff !important;
   a {
     color: #fff !important;
   }
-}
-.header-logo {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 .section {
   padding: 4em 0 4em;
@@ -82,7 +76,6 @@ a {
 .strike {
   text-decoration: line-through;
 }
-
 .socialbtn {
   margin: 0 7px;
   max-width: 25px;
