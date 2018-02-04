@@ -5,11 +5,29 @@ a {
   color: #fff !important;
 }
 .top-fold {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/StockSnap_KI4IDLRWIJ.jpg");
+  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/cafe.jpg");
   background-size: cover;
   background-color: #000;
   text-shadow: 2px 2px #000;
   height: 80%;
+}
+.second-fold {
+  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/florist.jpg");
+  background-size: cover;
+  background-color: #000;
+  text-shadow: 2px 2px #000;
+}
+.third-fold {
+  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/bakery.jpg");
+  background-size: cover;
+  background-color: #000;
+  text-shadow: 2px 2px #000;
+}
+.forth-fold {
+  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/designer.jpg");
+  background-size: cover;
+  background-color: #000;
+  text-shadow: 2px 2px #000;
 }
 .purple {
   background: #6a1b9a !important;
@@ -90,7 +108,7 @@ a {
 /*Vertical Sliding*/
 .slidingVertical{
   display: inline;
-  text-indent: 15px;
+  text-indent: 10px;
 }
 .slidingVertical span{
   animation: topToBottom 12.5s linear infinite 0s;
