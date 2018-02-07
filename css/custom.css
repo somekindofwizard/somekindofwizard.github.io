@@ -30,6 +30,9 @@ a {
   a {
     color: #fff !important;
   }
+  input {
+    color: #000 !important;
+  }
 }
 .purple-light {
   background: #9c4dcc !important;
