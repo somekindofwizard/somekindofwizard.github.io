@@ -15,13 +15,11 @@ a {
   background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/florist.jpg");
   background-size: cover;
   background-color: #000;
-  height: 80%;
 }
 .third-fold {
   background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/designer.jpg");
   background-size: cover;
   background-color: #000;
-  height: 80%;
 }
 .purple {
   background: #6a1b9a !important;
