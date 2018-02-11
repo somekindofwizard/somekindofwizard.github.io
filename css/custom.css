@@ -45,6 +45,30 @@ a {
     color: #fff !important;
   }
 }
+.green {
+  background: #4b9a1b !important;
+  border-color: #4b9a1b !important;
+  color: #000 !important;
+  a {
+    color: #000 !important;
+  }
+}
+.green-light {
+  background: #7ecb4e !important;
+  border-color: #7ecb4e !important;
+  color: #000 !important;
+  a {
+    color: #000 !important;
+  }
+}
+.green-dark {
+  background: #0d6b00 !important;
+  border-color: #0d6b00 !important;
+  color: #fff !important;
+  a {
+    color: #fff !important;
+  }
+}
 .section {
   padding: 4em 0 4em;
 }
