@@ -48,17 +48,17 @@ a {
 .green {
   background: #4b9a1b !important;
   border-color: #4b9a1b !important;
-  color: #000 !important;
+  color: #fff !important;
   a {
-    color: #000 !important;
+    color: #fff !important;
   }
 }
 .green-light {
   background: #7ecb4e !important;
   border-color: #7ecb4e !important;
-  color: #000 !important;
+  color: #fff !important;
   a {
-    color: #000 !important;
+    color: #fff !important;
   }
 }
 .green-dark {
