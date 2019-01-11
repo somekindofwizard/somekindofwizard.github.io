@@ -28,6 +28,11 @@ a {
   background-size: cover;
   background-color: #000;
 }
+.third-fold2 {
+  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/cafe.jpg");
+  background-size: cover;
+  background-color: #000;
+}
 .purple {
   background: #6a1b9a !important;
   border-color: #6a1b9a !important;
