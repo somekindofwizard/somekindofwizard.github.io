@@ -1,100 +1,42 @@
+body {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 200%;
+}
+.background {
+  background-image: url(../images/bg.png);
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 .responsive {
   max-width: 100%;
 }
+h1, h2, h3, h4, h5 {
+  margin: 1em;
+}
 a {
-  color: #fff !important;
+  color: #000 !important;
 }
-.top-fold {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/cafe.jpg");
-  background-size: cover;
-  background-color: #000;
-  text-shadow: 2px 2px #000;
-  height: 80%;
-}
-.top-fold2 {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/designer.jpg");
-  background-size: cover;
-  background-color: #000;
-  text-shadow: 2px 2px #000;
-  height: 80%;
-}
-.second-fold {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/florist.jpg");
-  background-size: cover;
-  background-color: #000;
-}
-.third-fold {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/designer.jpg");
-  background-size: cover;
-  background-color: #000;
-}
-.third-fold2 {
-  background-image: url("https://raw.githubusercontent.com/somekindofwizard/somekindofwizard.github.io/master/images/cafe.jpg");
-  background-size: cover;
-  background-color: #000;
-}
-.purple {
-  background: #6a1b9a !important;
-  border-color: #6a1b9a !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
-}
-.purple-light {
-  background: #9c4dcc !important;
-  border-color: #9c4dcc !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
-}
-.purple-dark {
-  background: #38006b !important;
-  border-color: #38006b !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
-}
-.green {
-  background: #4b9a1b !important;
-  border-color: #4b9a1b !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
-}
-.green-light {
-  background: #7ecb4e !important;
-  border-color: #7ecb4e !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
-}
-.green-dark {
-  background: #0d6b00 !important;
-  border-color: #0d6b00 !important;
-  color: #fff !important;
-  a {
-    color: #fff !important;
-  }
+.header-logo {
+  /* border: 5px solid #000; */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 200px;
 }
 .section {
-  padding: 4em 0 4em;
+  padding: 4em 2em 4em;
+  height: 100%;
+  text-align: center;
 }
 .black {
-  background-size: cover;
-  background-color: #000;
-  color: #fff;
+  color: #000;
   a {
-    color: #fff !important;
+    color: #000 !important;
   }
-}
-.feature-card {
-  margin-bottom: 4%;
-  padding: 1em;
 }
 .textblock {
   width: 80%;
@@ -130,69 +72,51 @@ a {
 }
 .socialbtn {
   margin: 0 7px;
-  max-width: 25px;
+  max-width: 50px;
+}
+.img-feature {
+  width: 400px;
 }
 
-/*Vertical Sliding*/
-.slidingVertical{
-  display: inline;
-  text-indent: 10px;
-}
-.slidingVertical span{
-  animation: topToBottom 12.5s linear infinite 0s;
-  -ms-animation: topToBottom 12.5s linear infinite 0s;
-  -webkit-animation: topToBottom 12.5s linear infinite 0s;
-  color: #fff;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-}
-.slidingVertical span:nth-child(2){
-  animation-delay: 2.5s;
-  -ms-animation-delay: 2.5s;
-  -webkit-animation-delay: 2.5s;
-}
-.slidingVertical span:nth-child(3){
-  animation-delay: 5s;
-  -ms-animation-delay: 5s;
-  -webkit-animation-delay: 5s;
-}
-.slidingVertical span:nth-child(4){
-  animation-delay: 7.5s;
-  -ms-animation-delay: 7.5s;
-  -webkit-animation-delay: 7.5s;
-}
-.slidingVertical span:nth-child(5){
-  animation-delay: 10s;
-  -ms-animation-delay: 10s;
-  -webkit-animation-delay: 10s;
+/* carousel */
+
+.carousel-cell {
+  width: 100%;
+  height: 1000px;
 }
 
-/*topToBottom Animation*/
-@-moz-keyframes topToBottom{
-  0% { opacity: 0; }
-  5% { opacity: 0; -moz-transform: translateY(-50px); }
-  10% { opacity: 1; -moz-transform: translateY(0px); }
-  25% { opacity: 1; -moz-transform: translateY(0px); }
-  30% { opacity: 0; -moz-transform: translateY(50px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  display: none;
 }
-@-webkit-keyframes topToBottom{
-  0% { opacity: 0; }
-  5% { opacity: 0; -webkit-transform: translateY(-50px); }
-  10% { opacity: 1; -webkit-transform: translateY(0px); }
-  25% { opacity: 1; -webkit-transform: translateY(0px); }
-  30% { opacity: 0; -webkit-transform: translateY(50px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
+.flickity-prev-next-button:hover {
+  background: transparent;
 }
-@-ms-keyframes topToBottom{
-  0% { opacity: 0; }
-  5% { opacity: 0; -ms-transform: translateY(-50px); }
-  10% { opacity: 1; -ms-transform: translateY(0px); }
-  25% { opacity: 1; -ms-transform: translateY(0px); }
-  30% { opacity: 0; -ms-transform: translateY(50px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  display: none;
+}
+.flickity-prev-next-button.no-svg {
+  display: none;
+}
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 5px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid black;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: black;
 }
