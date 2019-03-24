@@ -424,9 +424,6 @@ main {
   			column-count: 2;
   		}
   		column-gap: 20px;
-  		.text-center {
-  			text-align: center !important;
-  		}
   	}
 	.content__item-img {
 		max-width: none;
