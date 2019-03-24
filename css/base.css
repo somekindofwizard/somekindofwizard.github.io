@@ -433,6 +433,6 @@ main {
 }
 
 .socialbtn {
-  margin: 0 7px;
-  max-width: 50px;
+  margin: 0.67em;
+  max-width: 40px;
 }
