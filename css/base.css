@@ -417,7 +417,12 @@ main {
 		font-size: 3vw;
 	}
 	.content__item-text {
-  		column-count: 2;
+  		.one-col {
+  			column-count: 1;
+  		}
+  		.two-col {
+  			column-count: 2;
+  		}
   		column-gap: 20px;
   	}
 	.content__item-img {
