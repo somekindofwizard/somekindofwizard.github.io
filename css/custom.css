@@ -1,6 +1,7 @@
 body {
   font-family: 'Special Elite', cursive;
 }
+
 .bighead {
   padding: 5rem;
   background-image: url(/images/header.jpg);
@@ -24,15 +25,20 @@ body {
   background-image: url(/images/grain.png);
   background-size: 128px;
   background-color: #fff;
+  padding: 1em;
+}
+
+.social-icon {
+  filter: invert(100%);
+  max-width: 50px;
+  padding: 1em;
+}
+
+.text {
   h2, h3, h4 {
     text-decoration: underline;
   }
   p {
     border-left: 3px solid #000;
   }
-}
-.social-icon {
-  filter: invert(100%);
-  max-width: 50px;
-  padding: 1em;
 }
