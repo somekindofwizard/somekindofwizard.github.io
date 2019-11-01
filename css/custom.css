@@ -19,7 +19,7 @@ body {
 
 .content {
   color: #000;
-  background-image: url(images/grain.png);
+  background-image: url(/images/grain.png);
   background-size: 128px;
   background-color: #fff;
 }
