@@ -25,3 +25,7 @@ body {
   background-size: 128px;
   background-color: #fff;
 }
+.social-icon {
+  fill: #fff;
+  max-width: 50px;
+}
