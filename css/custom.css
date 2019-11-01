@@ -3,7 +3,7 @@ body {
 }
 .bighead {
   padding: 5rem;
-  background-image: url(images/header.jpg);
+  background-image: url(/images/header.jpg);
   background-size: cover;
   background-color: #000;
   color: #fff;
@@ -11,7 +11,7 @@ body {
 
 .bigfoot {
   padding: 5rem;
-  background-image: url(images/footer.jpg);
+  background-image: url(/images/footer.jpg);
   background-size: cover;
   background-color: #000;
   color: #fff;
