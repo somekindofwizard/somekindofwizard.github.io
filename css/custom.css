@@ -38,6 +38,6 @@ h2, h3, h4 {
   text-decoration: underline;
 }
 p {
-  border-left: 3px solid inherit;
+  border-left: 3px solid #000;
   padding-left: 1em;
 }
