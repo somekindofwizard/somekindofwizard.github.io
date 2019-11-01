@@ -34,11 +34,10 @@ body {
   padding: 1em;
 }
 
-.text {
-  h2, h3, h4 {
-    text-decoration: underline;
-  }
-  p {
-    border-left: 3px solid #000;
-  }
+h2, h3, h4 {
+  text-decoration: underline;
+}
+p {
+  border-left: 3px solid inherit;
+  padding-left: 1em;
 }
