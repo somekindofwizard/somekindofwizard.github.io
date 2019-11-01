@@ -28,4 +28,5 @@ body {
 .social-icon {
   filter: invert(100%);
   max-width: 50px;
+  padding: 1em;
 }
