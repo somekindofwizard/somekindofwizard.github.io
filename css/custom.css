@@ -26,6 +26,6 @@ body {
   background-color: #fff;
 }
 .social-icon {
-  filter: invert(100%);
+  filter: brightness(100%) contrast(100%);
   max-width: 50px;
 }
