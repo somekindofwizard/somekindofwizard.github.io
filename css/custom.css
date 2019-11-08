@@ -30,7 +30,7 @@ body {
 
 .social-icon {
   filter: invert(100%);
-  max-width: 50px;
+  max-width: 24px;
   padding: 1em;
 }
 
